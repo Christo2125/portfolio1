@@ -1,0 +1,336 @@
+
+
+body::before{
+    content: 'XS';
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+@media(min-width:576px){
+    body::before{
+        content: 'SM';
+    }
+}
+@media(min-width:768px){
+    body::before{
+        content: 'MD';
+    }
+}
+
+@media(min-width:992px){
+    body::before{
+        content: 'LG';
+    }
+}
+
+@media(min-width:1200px){
+    body::before{
+        content: 'XL';
+    }
+}
+
+@media(min-width:1400px){
+    body::before{
+        content: 'XXL';
+    }
+}
+
+
+
+
+
+
+.main{
+    background-image: url(./portfolioIMG/4.jpg);
+    background-size: 100% 100%;
+}
+.main1{
+    height: 100vh;
+    
+}
+
+a{
+    color: rgb(225,226,226);
+    text-decoration: none;
+}
+
+.main1-2{
+    word-spacing: 30px;
+    padding: 25px;
+    
+    
+}
+
+.main1-1{
+    padding: 25px;
+    
+    
+}
+
+.main1col3{
+    
+    line-height: 40px;
+    }
+
+    .page2{
+        
+        background-color:rgb(3, 3, 3);
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .main2-1{
+        
+        background-image: url(./portfolioIMG/professional\ passport.png);
+        opacity: 90%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+   
+    #paragraph{
+      
+      font-size: 15px;
+      text-align: center;
+    }
+
+    
+    .about-main{
+        word-spacing: 40px;
+        text-transform: capitalize;
+        color: rgb(216, 214, 214);
+        
+        
+    }
+    
+ .skills,.Experiance{
+    display: inline-block;
+    position: relative;
+    color: rgb(216, 214, 214);
+    transition: color 0.3s;
+  }
+  
+  .skills::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #DC3545; /* Red underline color */
+    transition: width 0.3s;
+    content: "";
+  }
+  
+  .skills:hover::after {
+    width: 100%;
+  }
+  
+  .education {
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .education::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #DC3545; /* Red underline color */
+    transition: width 0.3s;
+    content: "";
+  }
+  
+  .education:hover::after {
+    width: 100%;
+  }
+  
+
+
+  
+  
+  .about2,.about3{
+    display: none;
+    
+  }
+  .text-light{
+    opacity: 90%;
+  }
+  
+  .box1,.box2{
+   height: 190px;
+   width: 230px;
+   padding: 10px;
+   margin-top: 20px;
+    font-size: 14px;
+   color: white;
+   background-color: rgb(49, 49, 49);
+   display: inline-block;
+   position: relative;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   
+  }
+  
+  
+  
+  .Experiance {
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+
+  .Experiance::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #DC3545; /* Red underline color */
+    transition: width 0.3s;
+    content: "";
+  }
+  
+  .Experiance:hover::after {
+    width: 100%;
+  }
+
+    
+  .page3{
+    background-color: rgb(5, 5, 5);
+    
+    padding-top: 50px;
+    
+  }
+
+  .box3,.box4{
+    height: 190px;
+    width: 230px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 50px;
+    text-align: left;
+    
+   }
+
+
+   .box3{
+    background-image: url(./portfolioIMG/Untitled\ design\ \(8\).png);
+    margin-bottom: 60px;
+   }
+   .box4{
+    background-image: url(./portfolioIMG/Untitled\ design\ \(7\).png);
+   }
+
+   .box3:hover,.box4:hover{
+    
+    box-shadow: -1px 0px 10px 0px #fff;
+    transition: 0.4s;
+   }
+
+  .page4{
+    background-color: rgb(6, 6, 6);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+
+  #download{
+    border: 1px solid #DC3545;
+    background-color: rgb(6, 6, 6);
+    color: rgb(225,226,226);
+    padding: 0px 30px 5px 30px;
+    transition: 0.2s;
+  }
+
+  #download:hover{
+    /* box-shadow:-1px 0px 6px 0px #f46161; */
+    background-color: #DC3545;
+    
+  }
+
+  input{
+    background-color: rgb(34, 34, 34);
+    border: 1px solid black;
+    height: 45px;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    padding-left: 5px;
+  }
+input:hover{
+  background-color: rgb(60, 60, 60);
+  transition: 0.3s;
+}
+  .imp3{
+    height: 90px !important;
+  }
+button{
+  border: 0px solid black;
+}
+.contact{
+  margin-bottom: 20px;
+}
+
+#phone{
+  padding: 5px;
+  
+}
+
+#airbnb:hover,#interior:hover{
+  border-radius: 10px;
+  transition: 0.3s;
+  padding-left: 4px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+  
+}
+#airbnb,#interior{
+  color: #E0E1E2;
+}
+#notResponsiveAlert{
+  color: red;
+}
+
+.aboutContentButtons{
+  
+  position: relative;
+  top: -175px;
+}
+.bar{
+  
+  padding-top: 25px;
+  
+}
+
+.barContent{
+  
+  display: none;
+  color: white;
+  position: absolute;
+  top: 70px;
+  right: 80px;
+  width: 150px;
+  text-align: center;
+  background-color: #DC3545;
+  font-weight: 300;
+  padding: 10px;
+  text-transform: capitalize;
+
+  
+
+}
+.barContent  span:hover{
+  
+  font-weight: 400;
+  
+}
