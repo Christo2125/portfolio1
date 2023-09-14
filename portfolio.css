@@ -284,6 +284,9 @@ button{
   padding: 5px;
   
 }
+#airbnb{
+  margin-top: 10px;
+}
 
 #airbnb:hover,#interior:hover{
   border-radius: 10px;
@@ -293,9 +296,11 @@ button{
   background-color: rgba(0, 0, 0, 0.7);
   
   
+  
 }
 #airbnb,#interior{
   color: #E0E1E2;
+  
 }
 #notResponsiveAlert{
   color: red;
@@ -334,3 +339,4 @@ button{
   font-weight: 400;
   
 }
+
